@@ -6,5 +6,6 @@ pub struct EntryPoint {
 
 pub fn entry_point(entrypoint: &EntryPoint) {
     println!("En el entrypoint");
-    entrypoint.get_user_inst.get_user(5);
+    let get_user = entrypoint.get_user_inst.get_user(5);
+    println!("Usuario {}", get_user.name)
 }
