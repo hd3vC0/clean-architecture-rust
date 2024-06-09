@@ -1,0 +1,10 @@
+[package]
+name = "app_service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+model = {path = "../../domain/model"}
+use_case = { path = "../../domain/use_case"}
+api1 = { path = "../../infrastructure/adapters/api1"}
+commandline = { path = "../../infrastructure/entry_points/commandline"}
