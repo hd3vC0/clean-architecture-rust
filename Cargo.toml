@@ -1,4 +1,6 @@
 [workspace]
 members = [
-    "application/app_service"
-, "infrastructure/adapters/api1", "infrastructure/entry_points/commandline"]
+    "core",
+    "lambda_create_user",
+]
+

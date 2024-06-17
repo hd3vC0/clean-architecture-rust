@@ -1,0 +1,10 @@
+[package]
+name = "core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-config = "1.5.1"
+aws-sdk-dynamodb = "1.32.0"
+tokio = { version = "1.38.0", features = ["full"] }
+futures = "0.3.30"

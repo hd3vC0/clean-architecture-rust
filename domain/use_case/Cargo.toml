@@ -1,7 +1,0 @@
-[package]
-name = "use_case"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-model = { path = "../model"}

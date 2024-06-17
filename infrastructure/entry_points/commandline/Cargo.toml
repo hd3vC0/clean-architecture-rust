@@ -1,7 +1,0 @@
-[package]
-name = "commandline"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-use_case = { path = "../../../domain/use_case"}
